@@ -30,9 +30,6 @@
   padding: 2vh 1vw;
   margin-bottom: 10vh;
 }
-.nav-bc{
-
-}
 .list {
   display: flex;
   flex-direction: row;
@@ -256,6 +253,9 @@ p {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+.blog-img{
+  width: 22vw;
+}
 .message {
   border: 0.2vw solid #303336;
   font-size: 1vw;
@@ -293,10 +293,13 @@ p {
   color: white;
   text-align: center;
 }
+.right-footer{
+  padding: 2vw 0vw;
+}
 .contact-footer {
   display: flex;
   justify-content: space-around;
-  padding: 18vh 5vw;
+  padding: 9vw 5vw;
 }
 .data-heading {
   font-size: 2vw;
@@ -325,6 +328,25 @@ p {
     display: flex;
     flex-direction: column;
   }
+  .locationdatatext{
+    font-size: 4vw;
+    /*padding: 4vw;*/
+  }
+  .user-name{
+    font-size: 4.2vw;
+  }
+  .message{
+    font-size: 2.8vw;
+  }
+  .user-proffesion{
+    font-size: 3.5vw;
+  }
+  .list-item{
+    font-size: 3vw;
+  }
+  .right-footer{
+    font-size: 3vw;
+  }
 }
 @media screen and (max-width: 1000px) {
   .blog-items {
@@ -336,12 +358,26 @@ p {
     margin: 2vh 35vw;
   }
   .heading-text-size {
-    font-size: 12vw;
+    font-size: 10vw;
   }
   .map-location {
     display: none;
   }
   .locationdetails {
-    font-size: 3vw;
+    font-size: 2vw;
+  }
+}
+@media screen and (max-width: 400px){
+  .item{
+    margin: 2vw;
+  }
+  .blog-img{
+    width: 40vw;
+    
+    /*display: none;*/
+
+  }
+  .blog-heading {
+    margin: 2vh 5vw;
   }
 }
