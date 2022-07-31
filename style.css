@@ -23,10 +23,15 @@
   background-size: cover;
 }
 .nav {
+  background-color: black;
+  opacity: 70%;
   display: flex;
   justify-content: space-between;
   padding: 2vh 1vw;
   margin-bottom: 10vh;
+}
+.nav-bc{
+
 }
 .list {
   display: flex;
