@@ -315,6 +315,12 @@ p {
   border-color: #848485;
 }
 @media screen and (max-width: 800px) {
+  .data-heading{
+    font-size: 4.8vw;
+  }
+  .data-sub-heading{
+    font-size: 2vw;
+  }
   .about {
     text-align: center;
   }
@@ -347,6 +353,12 @@ p {
   .right-footer{
     font-size: 3vw;
   }
+  p{
+    font-size: 4.2vw;
+  }
+  .form-item{
+    font-size: 4vw;
+  }
 }
 @media screen and (max-width: 1000px) {
   .blog-items {
@@ -366,18 +378,26 @@ p {
   .locationdetails {
     font-size: 2vw;
   }
+  .blog-heading {
+    font-size: 5.1vw;
+    margin: 2vh 5vw;
+  }
 }
 @media screen and (max-width: 400px){
+  .main-head{
+    font-size: 14vw;
+  }
+  .sub-head{
+    font-size: 8vw;
+  }
   .item{
     margin: 2vw;
   }
   .blog-img{
     width: 40vw;
-    
-    /*display: none;*/
-
   }
-  .blog-heading {
-    margin: 2vh 5vw;
+  .btn-head{
+    font-size: 6vw;
   }
+  
 }
