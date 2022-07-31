@@ -208,6 +208,7 @@ p {
 
   background-color: red;
   color: white;
+  font-size: 1.55vw;
 }
 #juicebtn {
   background: transparent;
@@ -397,7 +398,7 @@ p {
     width: 40vw;
   }
   .btn-head{
-    font-size: 6vw;
+    font-size: vw;
   }
   
 }
